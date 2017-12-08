@@ -1,12 +1,11 @@
-<a href="#" class="list-group-item active">
-    <div class="pull-left">
-      <h4 class="list-group-item-heading">Enter Recipe Name String Interpolation here</h4>
-      <p class="list-group-item-text">Enter Recipe Description String Interpolation here</p>
+<a href="#" class="list-group-item">
+  <div class="row">
+    <div class="col-md-8">
+      <h4 class="list-group-item-heading">{{recipe.name}}</h4>
+      <p class="list-group-item-text">{{recipe.description}}</p>
     </div>
-    <span class="pull-right">
-        <img class="img-responsive"
-             src="{{recipe.imagePath}}"
-             style="max-height: 50px;"/>
-    </span>
+    <div class="col-md-4">
+      <img class="img-responsive" src="{{recipe.imagePath}}" style="max-height: 50px;"/>
+    </div>
+  </div>
 </a>
-  
